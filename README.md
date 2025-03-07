@@ -62,8 +62,6 @@ Installed Docker Toolbox (https://github.com/docker/toolbox/releases) for Window
 
 To fix the issue, first enable "Virtualization" from BIOS if it is disabled. Strangley, the "hypervisor" needed to be manually turned "Off", if it is turned "Auto". Use the following link to fix the issue if facing the same problem (https://github.com/docker/toolbox/issues/745).
 
-After successful installation:
-![database](./images/4a.png)
 
 #### (b) Create Single Node Kafka Cluster in Local Machine
 Run the following script in the created Docker Terminal:
@@ -79,8 +77,6 @@ Run the following script in the created Docker Terminal:
 |           | docker ps |
 |           | docker ps -a |
 
-Screenshot:
-![database](./images/4b.png)
 
 #### (C) Create Single Node Apache Hadoop and Spark Cluster on Docker
 Run the following script in the created Docker Terminal:
@@ -131,23 +127,5 @@ Load the folder "Server Status Monitoring" in VS Code IDE as a new project and r
 
 
 ### Final Result
-The dashboard updates live as the python simultor keeps feeding with new data. Some sample screenshots:
+The dashboard updates live as the python simultor keeps feeding with new data
 
-![database](./images/6.PNG)
-![database](./images/7.PNG)
-
-
-<!-- CONTACT -->
-
-## Contact
-
-Pritom Das Radheshyam - [Portfolio Website](https://pritom.uwu.ai/)
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/you-found-pritom
-[product-screenshot]: images/screenshot.jpg
